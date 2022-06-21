@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Music Project</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <!-- Start of Container for Movie Posters -->
+    <div class="container">
+        <div class="gallery"> <!-- TODO Add onclick event listener-->
+            <figure class="gallery__item gallery__item--1" id="fig1" onclick="event.stopPropagation(); getSong(this.id, event)">
+                <img class="gallery__img "src="../spotify-API/images/placeholder.png"" alt="" >
+            </figure>
+            <figure class="gallery__item gallery__item--2" id="fig2" onclick="event.stopPropagation(); getSong(this.id, event)">
+                <img class="gallery__img "src="../spotify-API/images/placeholder.png"" alt="" >
+            </figure>
+            <figure class="gallery__item gallery__item--3" id="fig3" onclick="event.stopPropagation(); getSong(this.id, event)">
+                <img class="gallery__img "src="../spotify-API/images/placeholder.png"" alt="" >
+            </figure>
+            <figure class="gallery__item gallery__item--4" id="fig4" onclick="event.stopPropagation(); getSong(this.id, event)">
+                <img class="gallery__img "src="../spotify-API/images/placeholder.png"" alt="" >
+            </figure>
+            <figure class="gallery__item gallery__item--5" id="fig5" onclick="event.stopPropagation(); getSong(this.id, event)">
+                <img class="gallery__img "src="../spotify-API/images/placeholder.png"" alt="" >
+            </figure>
+            <figure class="gallery__item gallery__item--6" id="fig6" onclick="event.stopPropagation(); getSong(this.id, event)">
+                <img class="gallery__img "src="../spotify-API/images/placeholder.png"" alt="" >
+            </figure>
+        </div>
+        <div class="buttoncontain">
+            <button onclick="stopSnippet()">Stop Song</button>
+        </div>
+
+    </div>
+</body>
+</html>
